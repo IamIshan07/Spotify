@@ -281,3 +281,110 @@ a {
     border-radius: 50%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+.album{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.song-image{
+    display: flex;
+    align-items: center;
+}
+
+.picture{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 0.25rem;
+}
+
+.song-name{
+    margin-left: 0.75rem;
+}
+
+.song-name p{
+    margin: 0;
+}
+
+.song-name p:first-child{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.song-name p:last-child{
+    font-size: 0.75rem;
+    color: #b3b3b3;
+    margin-top: 0.25rem;
+}
+
+.left-controlls{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.left-icons{
+    height: 1rem;
+    margin-left: 1rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.left-icons:hover{
+    opacity: 1;
+}
+
+.controls{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.controls img{
+    height: 1rem;
+    margin-left: 0.75rem;
+}
+
+.sound-bar{
+    display: flex;
+    align-items: center;
+}
+
+.sound-progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sound-progress-bar::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.sound-progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 7px;
+    width: 7px;
+    margin-top: -1.4px;
+    background-color: #1bd760;
+    border-radius: 50%;
+}
+
+
+
+
+
